@@ -1,0 +1,7 @@
+{
+  "name": "electron-wrapper",
+  "author": "Allwka",
+  "license": "MIT",
+  "description": "Import an web and node projects to build desktop app",
+  "packageManager": "yarn@4.9.2"
+}
