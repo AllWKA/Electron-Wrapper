@@ -8,11 +8,14 @@
   "packageManager": "yarn@4.9.2",
   "scripts": {
     "start": "electron .",
+    "build": "electron-builder --dir",
+    "dist": "electron-builder",
     "add-front": "node copy-module.js front",
     "add-back": "node copy-module.js back",
     "test": "echo 'no tests'"
   },
   "devDependencies": {
-    "electron": "38.1.2"
+    "electron": "38.1.2",
+    "electron-builder": "26.0.12"
   }
 }
